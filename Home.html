@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Car Website </title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <div class="logo"> Luxury Auto </div>
+
+    <ul class="navbar" id="navbar">
+        <li><a href="#home"> Home </a></li>
+        <li><a href="#cars"> Cars </a></li>
+        <li><a href="#about"> About </a></li>
+        <li><a href="#blog"> Blog </a></li>
+        <li><a href="#contact"> Contact </a></li>
+    </ul>
+    <div class="header-btn">
+        <a href="Create-Account.html" class="Create-Account"> Create Account </a>
+        <!-- <a href="Login.html" class="Login"> Login </a> -->
+    </div>
+
+    <div class="menu-toggle" id="menu-toggle"> 
+        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-xmark"></i>
+    </div>
+  </header>
+
+    <!-- Home Section -->
+    <main>
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <h1> <span> Find Your Dream Car </span> <br> with the best deals we offer</h1>
+            <p> Explore our extensive collection of cars and get the perfect one for you. The best we have are unmatched in comfort, service, and safety. </p>
+        </div>
+        <div class="hero-img">
+           <img src="Images/Audi-rs7.jpeg" alt="Car">
+        </div>
+
+        <div class="form-container">
+            <form action="">
+                <div class="input-box">
+                   <span> Location </span>
+                   <input type="search" name="" id="" placeholder="search Place">
+                </div>
+                <div class="input-box">
+                   <span> Pick-up-Date </span>
+                   <input type="date" name="Pick-up-Date" id="Pick-up-Date">
+                </div>
+                <div class="input-box">
+                   <span> Return-Date </span>
+                   <input type="date" name="Return-Date" id="Return-Date">
+                </div>
+                <button type="submit" class="btn" name="" id=""> search </button>
+            </form>
+        </div>
+    </section>
+    </main>
+  
+  <!-- Cars Section -->
+  <!-- Add inside your cars-section -->
+    <div class="featured-cars" id="cars">
+        <h2> Featured cars </h2>
+        <div class="car-cards">
+            <div class="car-card">
+                <img src="Images/Audi.jpg" alt="Audi RS7">
+            <div class="car-info">
+                <div class="car-title">
+                    <span> Audi RS7 </span>
+                    <span class="car-year"> 2025 </span>
+                </div>
+                <div class="car-details">
+                    <span> 4 People </span>
+                    <span> Gasoline </span>
+                    <span> 5.3km / 1-litre </span>
+                    <span> Automatic </span>
+                </div>
+                <div class="car-price">
+                    <span> $400 <small> /month </small></span>
+                    <i class="bx bx-heart"></i>
+                    <button class="rent-btn"> Rent now </button>
+                </div>
+            </div>
+        </div>
+        <div class="car-card">
+            <img src="Images/BMW-M5.jpg" alt="BMW 5">
+            <div class="car-info">
+                <div class="car-title">
+                    <span> BMW 5 </span>
+                    <span class="car-year"> 2019 </span>
+                </div>
+                <div class="car-details">
+                    <span> 4 People </span>
+                    <span> Gasoline </span>
+                    <span> 8.2km / 1-litre </span>
+                    <span> Automatic </span>
+                </div>
+                <div class="car-price">
+                    <span> $340 <small> /month </small></span>
+                    <i class="bx bx-heart"></i>
+                    <button class="rent-btn"> Rent now </button>
+                </div>
+            </div>
+        </div>
+        <div class="car-card">
+            <img src="Images/Mercedes.jpg" alt="Mercedes">
+            <div class="car-info">
+                <div class="car-title">
+                    <span> Mercedes AMG C63 S </span>
+                    <span class="car-year"> 2018 </span>
+                </div>
+                <div class="car-details">
+                    <span> 4 People </span>
+                    <span> Gasoline </span>
+                    <span> 5.3km / 1-litre </span>
+                    <span> Automatic </span>
+                </div>
+                <div class="car-price">
+                    <span> $400 <small> /month </small></span>
+                    <i class="bx bx-heart"></i>
+                    <button class="rent-btn"> Rent now </button>
+                </div>
+            </div>
+        </div>
+        <div class="car-card">
+            <img src="Images/porsche.jpg" alt="Porsche">
+            <div class="car-info">
+                <div class="car-title">
+                    <span> Porsche 911 </span>
+                    <span class="car-year"> 2024 </span>
+                </div>
+                <div class="car-details">
+                    <span> 4 People </span>
+                    <span> Gasoline </span>
+                    <span> 5.3km / 1-litre </span>
+                    <span> Automatic </span>
+                </div>
+                <div class="car-price">
+                    <span> $400 <small> /month </small></span>
+                    <i class="bx bx-heart"></i>
+                    <button class="rent-btn"> Rent now </button>
+                </div>
+            </div>
+        </div>
+        <div class="car-card">
+            <img src="Images/range-sport.jpg" alt="Range Rover Sport">
+            <div class="car-info">
+                <div class="car-title">
+                    <span> Range Rover Sport SVR </span>
+                    <span class="car-year"> 2018 </span>
+                </div>
+                <div class="car-details">
+                    <span> 4 People </span>
+                    <span> Gasoline </span>
+                    <span> 5.3km / 1-litre </span>
+                    <span> Automatic </span>
+                </div>
+                <div class="car-price">
+                    <span> $400 <small> /month </small></span>
+                    <i class="bx bx-heart"></i>
+                    <button class="rent-btn"> Rent now </button>
+                </div>
+            </div>
+        </div>
+        <div class="car-card">
+            <img src="Images/g-glass.jpg" alt="G-Class">
+            <div class="car-info">
+                <div class="car-title">
+                    <span> G-Class AMG G63 900 </span>
+                    <span class="car-year"> 2021 </span>
+                </div>
+                <div class="car-details">
+                    <span> 4 People </span>
+                    <span> Gasoline </span>
+                    <span> 5.3km / 1-litre </span>
+                    <span> Automatic </span>
+                </div>
+                <div class="car-price">
+                    <span> $400 <small> /month </small></span>
+                    <i class="bx bx-heart"></i>
+                    <button class="rent-btn"> Rent now </button>
+                </div>
+            </div>
+        </div>
+        <div class="car-card">
+            <img src="Images/Toyota.jpg" alt="Toyota">
+            <div class="car-info">
+                <div class="car-title">
+                    <span> Toyota </span>
+                    <span class="car-year"> 2023 </span>
+                </div>
+                <div class="car-details">
+                    <span> 4 People </span>
+                    <span> Hybrid </span>
+                    <span> 6.1km / 1-litre </span>
+                    <span> Automatic </span>
+                </div>
+                <div class="car-price">
+                    <span> $440 <small> /month </small></span>
+                    <i class="bx bx-heart"></i>
+                    <button class="rent-btn"> Rent now </button>
+                </div>
+            </div>
+        </div>
+        <div class="car-card">
+            <img src="Images/cherokee.jpg" alt="Cherokee">
+            <div class="car-info">
+                <div class="car-title">
+                    <span> cherokee SUV </span>
+                    <span class="car-year"> 2018 </span>
+                </div>
+                <div class="car-details">
+                    <span> 4 People </span>
+                    <span> Gasoline </span>
+                    <span> 5.3km / 1-litre </span>
+                    <span> Automatic </span>
+                </div>
+                <div class="car-price">
+                    <span> $400 <small> /month </small></span>
+                    <i class="bx bx-heart"></i>
+                    <button class="rent-btn"> Rent now </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="view-more-btn">
+        <button class="arrow-btn"> View More Cars <span class="arrow">&#8594;</span> </button>
+    </div>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <img src="Images/range-rover-classic.jpg" alt="Car Image" class="about-img">
+            <div class="about-text">
+                <h1> About Us </h1>
+                <p>
+                    Luxury Auto, we are dedicated to making your trips safe, easy, and affordable. From budget-friendly cars to luxury vehicles, we offer a wide range of options to match your journey. With transparent pricing and 24/7 support, your satisfaction is always our priority.
+                </p>
+                <button class="btn"> Read More </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog" id="blog">
+        <div class="blog-header">
+            <h1> Our Blog </h1>
+            <p> Stay updated with the latest car industry news, rental tips, and travel guides. </p>
+        </div>
+        
+        <div class="blog-content">
+            <!-- Blog Card 1 -->
+            <div class="blog-card">
+                <img src="Images/Tesla.jpg" alt="Luxury Cars">
+                <div class="blog-text">
+                    <h2> The New Tesla Roadster </h2>
+                    <p> The upcoming luxury electric vehicle, high performance. It’s not just another electric car, it’s planned to be one of the most advanced and fastest production cars ever built.  </p>
+                    <button class="btn btn-secondary"> Read More </button>
+                </div>
+            </div>
+
+            <!-- Blog Card 2 -->
+            <div class="blog-card">
+                <img src="Images/image.jpg" alt="Car Care">
+                <div class="blog-text">
+                    <h2> How We Care for Our Cars </h2>
+                    <p> Luxury Auto, every vehicle is regularly cleaned, inspected, and maintained to the highest standards. From engine checks to deep interior cleaning, we make sure every ride feels brand new. </p>
+                    <button class="btn btn-secondary"> Read More </button>
+                </div>
+            </div>
+
+            <!-- Blog Card 3 -->
+            <div class="blog-card">
+                <img src="Images/jeep-RAM.jpg" alt="Car Travel">
+                <div class="blog-text">
+                    <h2> Best Car for Long Road Trips </h2>
+                    <p> Planning a road trip? Here are our top recommendations for cars that balance comfort, fuel efficiency, and preservation of safety to make your trip unforgettable. </p>
+                    <button class="btn btn-secondary"> Read More </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- View All Blog Posts Button -->
+        <div class="blog-footer">
+            <button class="btn btn-primary"> View All Blog Posts </button>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-header">
+            <h1> Contact Us </h1>
+            <p> We love to hear from you! Fill out the form below and we’ll get back to you soon. </p>
+        </div>
+        
+        <div class="contact-content">
+        <!-- Left Info -->
+           <div class="contact-info">
+               <h2> Send Us a Message </h2>
+               <p> If you have any questions about our cars or services. We value your feedback and are always ready to assist you. </p>
+               <ul>
+                  <li><i class="bx bx-envelope"></i><strong> Email: </strong> support@gmail.com </li>
+                  <li><i class="bx bx-phone"></i><strong> Phone: </strong> +961 123 456 789 </li>
+                  <li><i class="bx bx-map"></i><strong> Location: </strong> Beirut, Lebanon </li>
+                </ul>
+
+                <!-- Social Media Icons -->
+                <div class="social-links">
+                    <a href=""><i class="bx bxl-youtube"></i></a>
+                    <a href=""><i class="bx bxl-instagram"></i></a>
+                    <a href=""><i class="bx bxl-tiktok"></i></a>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn-contact"> Send Message </button>
+            </form>
+            <!-- <form class="contact-form">
+            <div class="form-group">
+                <input type="text" placeholder="Your Name">
+                <small class="error"></small>
+            </div>
+
+            <div class="form-group">
+                <input type="email" placeholder="Your Email">
+                <small class="error"></small>
+            </div>
+
+            <div class="form-group">
+                <textarea placeholder="Your Message" rows="5"></textarea>
+                <small class="error"></small>
+            </div>
+
+            <button type="submit" class="btn-contact">Send Message</button>
+            </form> -->
+        </div>
+    </section>
+
+  <script src="main.js"></script>
+</body>
+</html>
