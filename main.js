@@ -225,5 +225,3 @@ function validateEmail(email) {
 // function validateEmail(email) {
 //   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 // }
-
-document.getElementById("Pick-up-Date").valueAsDate = new Date();
