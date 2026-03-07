@@ -285,6 +285,14 @@ header{
   background: var(--second-color);
 }
 
+.date-input:invalid {
+  color: gray;
+}
+
+.date-input:valid {
+  color: black;
+}
+
 .featured-cars {
   background: #f5f8fc;
   padding: 40px 0;
