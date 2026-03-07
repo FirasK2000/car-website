@@ -868,7 +868,7 @@ header{
 
   .form-container form .btn {
     width: 100%;
-    padding: 4px;
+    padding: 18px;
   }
 
   @keyframes fadeLeft {
