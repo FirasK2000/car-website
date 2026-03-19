@@ -177,7 +177,7 @@ header{
 
 .hero {
   padding-top: 80px;
-  min-height: 80vh;
+  height: 96vh;
   position: relative;
   display: grid;
   align-items: center;
@@ -204,7 +204,6 @@ header{
 
 .hero-text {
   max-width: 80%;
-  animation: fadeLeft 1s ease forwards;
 }
 
 .hero-text h1 {
@@ -219,7 +218,7 @@ header{
 
 .hero-text p {
   font-size: 14.9px;
-  margin-bottom: 20px;
+  margin-bottom: 280px;
   color: white;
 }
 
@@ -236,53 +235,52 @@ header{
   width: 100%;
   max-width: 800px;
   border-radius: 20px;
+  animation: floatCar 4s ease-in-out infinite;
 }
 
-.form-container form{
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  position: absolute;
-  bottom: 4.9rem;
-  left: 1px;
-  background: white;
-  padding: 20px;
-  border-radius: 0.5rem;
-  animation: fadeUp 1s ease forwards;
+@keyframes floatCar {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-14px);
+  }
+  100%{
+    transform: translateY(0);
+  }
 }
 
-.input-box {
-  flex: 1 1 7rem;
-  display: flex;
-  flex-direction: column;
-}
-
-.input-box span {
-  font-weight: 500;
-}
-
-.input-box input {
-  padding: 8px;
-  outline: none;
-  border: none;
-  background: #eeefee;
-  border-radius: 0.5rem;
-  font-size: 1rem;
-}
-
-.form-container form .btn{
-  flex: 1 1 7rem;
-  padding: 10px 34px;
-  border: none;
-  border-radius: 0.5rem;
-  background: black;
+.hero-info {
+  max-width: 80%;
+  bottom: 320px;
+  margin-top: 20px;
+  padding: 14px 16px;
   color: white;
-  font-size: 1rem;
-  font-weight: 500;
+  border-left: 4px solid white;
 }
 
-.form-container form .btn:hover{
-  background: var(--second-color);
+.hero-info p {
+  text-align: center;
+  font-size: 14.8px;
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+.hero-info .view-btn {
+  display: table;
+  margin: 0 auto;
+  padding: 10px 22px;
+  background: #2196f3;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.hero-info .view-btn:hover {
+  background: white;
+  color: black;
 }
 
 .featured-cars {
@@ -424,7 +422,7 @@ header{
 }
 
 .arrow-btn:hover {
-  background: #1769aa;
+  /* background: #1769aa; */
   box-shadow: 0 6px 24px rgba(33, 150, 243, 0.18);
   transform: translateY(-2px) scale(1.03);
 }
@@ -440,7 +438,6 @@ header{
 
 .about {
   border-radius: 20px;
-  background: gainsboro; /* Light gray for professional look */
   min-height: 80vh;
   display: grid;
   align-items: center;
@@ -464,7 +461,7 @@ header{
 .about-text h1 {
   font-size: 2.5rem;
   color: black;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-weight: 700;
   text-align: center;
 }
@@ -472,8 +469,8 @@ header{
 .about-text p {
   font-size: 1rem;
   line-height: 1.8;
-  color: gray;
-  margin-bottom: 30px;
+  color: black;
+  margin-bottom: 13px;
   text-align: center;
   min-height: 80px;
 }
@@ -493,7 +490,7 @@ header{
 }
 
 .btn:hover {
-  background-color: gray;
+  /* background-color: gray; */
   transform: translateY(-3px);
 }
 
@@ -581,7 +578,7 @@ header{
   padding: 10px 24px;
   font-size: 1rem;
   font-weight: 500;
-  border: 2px solid gray;
+  border: 1px solid #2196f3;
   border-radius: 6px;
   background: transparent;
   color: white;
@@ -590,21 +587,23 @@ header{
 }
 
 .btn-secondary {
-  background: black;
+  background: #2196f3;
 }
 
 .btn-secondary:hover {
-  background: gray;
+  color: black;
+  background: white;
   transform: translateY(-2px) scale(1.04);
 }
 
 .btn-primary {
-  background: black;
+  background: #2196f3;
   margin-top: 20px;
 }
 
 .btn-primary:hover {
-  background: gray;
+  color: black;
+  background: white;
   transform: translateY(-2px) scale(1.04);
 }
 
@@ -700,7 +699,7 @@ header{
 }
 
 .social-links a:hover {
-  background: gray;
+  /* background: gray; */
   transform: translateY(-3px);
 }
 
@@ -768,9 +767,9 @@ header{
   transition: 0.3s;
 }
 
-.btn-contact:hover {
+/* .btn-contact:hover {
   background: gray;
-}
+} */
 
 /* RESPONSIVE DESIGN */
 
@@ -824,7 +823,7 @@ header{
     align-items: center;
     max-width: 100%;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   .hero-text h1 {
@@ -844,7 +843,7 @@ header{
   .hero-img {
     align-items: center;
     text-align: center;
-    margin: 30px 0;
+    margin: 20px 0;
   }
 
   .hero-img img {
@@ -853,55 +852,26 @@ header{
     border-radius: 14px;
   }
 
-  /* FORM */
-  .form-container form {
-    position: static;        /* very important */
-    flex-direction: column;
-    width: 100%;
-    gap: 12px;
-    margin-top: 20px;
+  .hero-info {
+    max-width: 100%;
+    margin-top: 10px;
+    padding: 12px;
+    border-left: none;
+    border-top: 3px solid white;
+    text-align: center;
   }
 
-  .input-box {
-    width: 100%;
+  .hero-info p {
+    font-size: 13.5px;
+    line-height: 1.6;
+    text-align: center;
   }
 
-  .form-container form .btn {
-    width: 100%;
-    padding: 18px;
-  }
-
-  @keyframes fadeLeft {
-  from {
-    opacity: 0;
-    transform: translateX(-30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-  }
-
-  @keyframes fadeRight {
-  from {
-    opacity: 0;
-    transform: translateX(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-  }
-
-  @keyframes fadeUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  .hero-info .view-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
   }
 
   .featured-cars h2 {
