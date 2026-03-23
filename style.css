@@ -842,7 +842,7 @@ header{
   /* IMAGE */
   .hero-img {
     align-items: center;
-    bottom: 110px;
+    margin-top: 400px;
     text-align: center;
   }
 
