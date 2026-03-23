@@ -855,8 +855,8 @@ header{
   .hero-info {
     position: static;
     max-width: 100%;
-    margin-top: 14px;
-    padding: 11px;
+    margin-top: -1px;
+    padding: 14px;
     border: none;
     text-align: center;
     border-radius: 12px;
