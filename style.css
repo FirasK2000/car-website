@@ -937,7 +937,7 @@ header{
   .about-img {
     width: 100%;
     max-width: 360px;
-    margin: 10px auto;
+    margin: 80px auto;
   }
 
   .about-text h1 {
@@ -945,12 +945,17 @@ header{
   }
 
   .about-text p {
-    font-size: 0.96rem;
+    font-size: 0.99rem;
     line-height: 1.7;
   }
 
   .about-text .btn {
     margin-top: 14px;
+  }
+
+  .blog-text p {
+    font-size: 1rem;
+    text-align: left;
   }
 
   .contact {
