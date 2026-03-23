@@ -810,7 +810,7 @@ header{
   /* HERO LAYOUT */
   .hero {
     grid-template-columns: 1fr;
-    padding: 90px 10px 110px;
+    padding: 90px 10px 119px;
     min-height: auto;
   }
 
@@ -835,7 +835,7 @@ header{
 
   .hero-text p {
     align-items: center;
-    font-size: 14px;
+    font-size: 11px;
     text-align: center;
   }
 
@@ -857,14 +857,14 @@ header{
     max-width: 100%;
     padding: 14px;
     border: none;
-    margin-top: -30px;
+    margin-top: -31px;
     text-align: center;
     border-radius: 12px;
     background: rgba(43, 43, 43, 0.6);
   }
 
   .hero-info p {
-    font-size: 13.4px;
+    font-size: 11px;
     line-height: 1.6;
     text-align: center;
   }
