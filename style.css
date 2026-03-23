@@ -842,7 +842,7 @@ header{
   /* IMAGE */
   .hero-img {
     align-items: center;
-    margin-top: -280px;
+    margin-top: -240px;
     text-align: center;
   }
 
@@ -855,7 +855,6 @@ header{
   .hero-info {
     position: static;
     max-width: 100%;
-    margin-top: 10px;
     padding: 14px;
     border: none;
     text-align: center;
