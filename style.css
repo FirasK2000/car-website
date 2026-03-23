@@ -938,7 +938,7 @@ header{
     width: 100%;
     max-width: 360px;
     margin: 0 auto;
-    margin-top: -8px;
+    margin-top: 4px;
   }
 
   .about-text h1 {
@@ -946,7 +946,7 @@ header{
   }
 
   .about-text p {
-    font-size: 1.2rem;
+    font-size: 0.96rem;
     line-height: 1.7;
   }
 
@@ -954,12 +954,8 @@ header{
     margin-top: 14px;
   }
 
-  .blog-header p {
-    font-size: 0.99rem;
-  }
-
   .blog-text p {
-    font-size: 1.2rem;
+    font-size: 0.96rem;
   }
 
   .contact {
@@ -995,7 +991,7 @@ header{
   .contact-info p {
     grid-area: header;
     margin-top: 60px;
-    font-size: 0.94rem;
+    font-size: 0.99rem;
     align-items: center;
   }
 
