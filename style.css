@@ -925,7 +925,7 @@ header{
   }
 
   .about {
-    padding: 50px 20px;
+    padding: 40px 20px;
   }
 
   .about-content {
@@ -937,7 +937,7 @@ header{
   .about-img {
     width: 100%;
     max-width: 360px;
-    margin: 0 auto;
+    margin: 10px auto;
   }
 
   .about-text h1 {
@@ -945,15 +945,13 @@ header{
   }
 
   .about-text p {
-    font-size: 1.1rem;
+    font-size: 0.96rem;
     line-height: 1.7;
   }
 
   .about-text .btn {
-    margin-top: 15px;
+    margin-top: 14px;
   }
-  
-  .blog
 
   .contact {
     padding: 30px 20px;
