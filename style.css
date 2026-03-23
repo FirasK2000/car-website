@@ -945,7 +945,7 @@ header{
   }
 
   .about-text p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.7;
   }
 
@@ -953,6 +953,8 @@ header{
     margin-top: 15px;
   }
   
+  .blog
+
   .contact {
     padding: 30px 20px;
   }
