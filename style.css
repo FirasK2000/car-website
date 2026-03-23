@@ -810,7 +810,7 @@ header{
   /* HERO LAYOUT */
   .hero {
     grid-template-columns: 1fr;
-    padding: 90px 10px 119px;
+    padding: 90px 10px 118px;
     min-height: auto;
   }
 
@@ -835,7 +835,7 @@ header{
 
   .hero-text p {
     align-items: center;
-    font-size: 13px;
+    font-size: 13.4px;
     text-align: center;
   }
 
