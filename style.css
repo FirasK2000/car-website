@@ -938,7 +938,7 @@ header{
     width: 100%;
     max-width: 360px;
     margin: 0 auto;
-    margin-top: -70px;
+    margin-top: -30px;
   }
 
   .about-text h1 {
@@ -956,7 +956,6 @@ header{
 
   .blog-text p {
     font-size: 1rem;
-    text-align: start;
   }
 
   .contact {
