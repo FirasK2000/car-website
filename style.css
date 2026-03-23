@@ -937,7 +937,8 @@ header{
   .about-img {
     width: 100%;
     max-width: 360px;
-    margin: 80px auto;
+    margin: 0 auto;
+    margin-top: 60px;
   }
 
   .about-text h1 {
@@ -945,7 +946,7 @@ header{
   }
 
   .about-text p {
-    font-size: 0.99rem;
+    font-size: 0.97rem;
     line-height: 1.7;
   }
 
