@@ -810,7 +810,7 @@ header{
   /* HERO LAYOUT */
   .hero {
     grid-template-columns: 1fr;
-    padding: 100px 10px 40px;
+    padding: 400px 10px 40px;
     min-height: auto;
   }
 
@@ -842,7 +842,7 @@ header{
   /* IMAGE */
   .hero-img {
     align-items: center;
-    margin-top: -240px;
+    margin-top: -260px;
     text-align: center;
   }
 
@@ -863,7 +863,7 @@ header{
   }
 
   .hero-info p {
-    font-size: 13.5px;
+    font-size: 13.4px;
     line-height: 1.6;
     text-align: center;
   }
