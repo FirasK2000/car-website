@@ -497,14 +497,14 @@ header{
 /* Blog Section */
 .blog {
   background: white;
-  padding: 80px 10%;
+  padding: 48px 10%;
   text-align: center;
 }
 
 .blog-header h1 {
   font-size: 2.5rem;
   color: #222;
-  margin-bottom: 15px;
+  margin-bottom: 14px;
   font-weight: 700;
   text-align: center;
 }
@@ -598,7 +598,7 @@ header{
 
 .btn-primary {
   background: #2196f3;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .btn-primary:hover {
