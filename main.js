@@ -1,4 +1,4 @@
-// Smooth scroll on click (you already have this)
+// Smooth scroll on click (You already have this)
 document.addEventListener('DOMContentLoaded', () => {
   // menu toggle
   const menuToggle = document.getElementById('menu-toggle');
@@ -226,25 +226,28 @@ function validateEmail(email) {
 //   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 // }
 
-// update counter //
-const counters = document.querySelectorAll('.counter');
 
-counters.forEach(counter => {
-  counter.innerText = '0';
 
-  const updateCounter = () => {
-    const target = +counter.getAttribute('data-target');
-    const count = +counter.innerText;
+let favCount = 0;
+let orderCount = 0
 
-    const increment = target / 100;
+const favDisplay = document.getElementById("fav-count");
+const orderDisplay = document.getElementById("order-count");
 
-    if(count < target){
-      counter.innerText = Math.ceil(count + increment);
-      setTimeout(updateCounter, 20);
-    } else {
-      counter.innerText = target + "+";
-    }
-  };
+// Favorite Buttons 
+document.querySelectorAll(".bx-heart").forEach(btn => {
+  btn.addEventListener("click", () => {
+    favCount++;
+    favDisplay.style.display = "inline-block";
+    favDisplay.textContent = favCount;
+  });
+});
 
-  updateCounter();
+// Rent Buttons
+document.querySelectorAll(".rent-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    orderCount++;
+    orderDisplay.style.display = "inline-block";
+    orderDisplay.textContent = orderCount;
+  });
 });

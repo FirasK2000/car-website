@@ -45,7 +45,15 @@ header{
   align-items: center;
   justify-content: space-between;
   background: gray;
-  padding: 15px 100px;
+  padding: 14px 100px;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar{
@@ -125,56 +133,25 @@ header{
   transform: rotate(0deg) scale(1);
 } 
 
-.header {
+.nav-icons {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 16px;   /* SMALL padding only */
-  height: 64px;
+  gap: 14px;
 }
 
-.header-btn a{
-  padding: 10px 20px;
-  color: var(--text-color);
-  font-weight: 500;
-}
-
-.header-btn .Create-Account{
-  background: var(--second-color);
-  color: var(--text-color);
-  border-radius: 0.5rem;
-}
-
-.header-btn .Create-Account:hover{
-  background: var(--main-color);
-}
-
-.logo {
-  font-size: 18px;
-  font-weight: 600;
+.icon-box {
+  display: flex;
+  align-items: center;
   color: white;
-  margin: 0;
-  padding: 0;
+  text-decoration: none;
+  transition: 0.3s ease;
 }
 
-/* .header-btn .login{
-  background: var(--second-color);
-  color: var(--text-color);
-  border-radius: 0.5rem;
+.icon-box:hover {
+  color: black;
 }
 
-.header-btn .login:hover{
-  background: var(--main-color);
-}
-
-.logo {
-  font-size: 18px;
-  font-weight: 600;
-  color: white;
-  margin: 0;
-  padding: 0;
-} */
-
+/* Hero section */
 .hero {
   padding-top: 80px;
   height: 96vh;
@@ -283,6 +260,7 @@ header{
   color: black;
 }
 
+/* Feature-cars section */
 .featured-cars {
   background: #f5f8fc;
   padding: 40px 0;
@@ -376,7 +354,7 @@ header{
 
 .car-price .bx-heart.liked {
   color: #ff4081;
-  transform: scale(1.1); /* makes the heart bigger when liked */
+  /* transform: scale(1.1);  makes the heart bigger when liked  */
 }
 
 .car-price .bx-heart:hover {
@@ -436,6 +414,7 @@ header{
   transform: translateX(6px);
 }
 
+/* About section */
 .about {
   border-radius: 20px;
   min-height: 80vh;
@@ -810,7 +789,7 @@ header{
   /* HERO LAYOUT */
   .hero {
     grid-template-columns: 1fr;
-    padding: 90px 10px 118px;
+    padding: 70px 10px 118px;
     min-height: auto;
   }
 
